@@ -29,7 +29,6 @@ async function checarCEP(CEP){
         let cidade = document.getElementById('cidade');
         let endereco = document.getElementById('endereco');
         let uf = document.getElementById('uf');
-        console.log(checarCEPConvertido)
         
         cidade.value = checarCEPConvertido.localidade;
         endereco.value = checarCEPConvertido.logradouro;
